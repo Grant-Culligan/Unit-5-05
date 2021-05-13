@@ -1,13 +1,10 @@
 let number = 0
-let sentence = 'hello this is the number 3'
 
-document.getElementById('calc').addEventListener('click'), addition)
+document.getElementById('btn').addEventListener('click', add)
 
-function addition () {
+function add () {
   number = document.getElementById('input').value
-
   number = parseInt(number)
-
-  number = number + 1
+  number = number * number
   alert(number)
 }
